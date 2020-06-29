@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>LyrifyApp</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=400px, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <article id="player">
+            <table>
+                <tr>
+                    <td width=145>
+                        <img src="resources/song_cover.jpg"; width=145; height=145>
+                    </td>
+                    
+                    <td width=150>
+                        <br><br>
+                        <div id="song_name">
+                            <a href="https://www.google.com"; target="_blank"><font color=white size=3><b> So What </b></font></a>
+                        </div>
+                        
+                        <div id="artist_name">
+                            <a href="https://www.google.com" target="_blank"><font color=#b4b4b4 size=2>LOONA</font></a>
+                        </div>
+
+                        <br>
+                        <div class="slidecontainer" id="progress_bar">
+                            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                        </div>
+
+                        <table>
+                            <tr>
+                                <td>
+                                    <div id="song_progress">
+                                        <font color=#b4b4b4 size=1>2:34</font>
+                                    </div>
+                                </td>
+                                <td width=250>
+                                    <div id="song_length">
+                                        <font color=#b4b4b4 size=1>3:35</font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </article>
+
+        <article id="lyrics">
+            <p align=center>
+                Lyrics cannot be found.
+            </p>
+        </article>
+
+        <article id="language_buttons">
+            <center>
+                <button>Native</button>
+                <button>Romanized</button>
+                <button>English</button>
+            </center>
+        </article>
+
+        <script src="main.js" async defer></script>
+    </body>
+</html>

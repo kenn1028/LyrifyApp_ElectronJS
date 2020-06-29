@@ -1,0 +1,128 @@
+/* CSS */
+@import url(https://fonts.googleapis.com/css?family=Proxima+Nova);
+
+body {
+    background-color: rgb(112, 112, 112);
+    color: rgb(230, 230, 230);
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------ PLAYER ------------------ */
+
+#player {
+    height: 151px;
+    width: 450px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-family: "Proxima Nova";
+    font-size: 12px;
+    /* overflow: hidden; */
+}
+
+
+#language_buttons {
+    height: 40px;
+    width: 446px;
+    background-color: rgb(40, 40, 40);
+    border: 2px solid rgb(40, 40, 40);
+    border-top: 1px solid rgb(35, 35, 35);
+}
+
+button {
+    margin-top: 6px;
+    margin-block-end: 0px;
+    height: 30px;
+    width: 145px;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border: none;
+}
+
+table {
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    text-align: justify;
+    vertical-align: top;
+}
+
+a {
+    /* color: white; */
+    text-decoration: none;
+}
+
+#song_name {
+    margin-inline-start: 15px;
+    margin-bottom: 9px;
+}
+
+#artist_name {
+    margin-inline-start: 15px;
+}
+
+#song_progress {
+    margin-inline-start: 15px;
+}
+
+#song_length {
+    text-align: right;
+}
+
+/* ------------------ PROGRESS BAR ------------------ */
+
+#progress_bar {
+    margin-inline-start: 15px;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 250px; /* Full-width */
+    height: 4px; /* Specified height */
+    background: #404040; /* Grey background */
+    outline: none; /* Remove outline */
+    border-radius: 2px;
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 5px; /* Set a specific slider handle width */
+    height: 5px; /* Slider handle height */
+    background: #d3d3d3; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+    width: 5px; /* Set a specific slider handle width */
+    height: 5px; /* Slider handle height */
+    background: #d3d3d3; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+/* ------------------ LYRICS BAR ------------------ */
+
+#lyrics {
+    height: 410px;
+    width: 446px;
+    background-color: rgb(40, 40, 40);
+    border: 2px solid rgb(40, 40, 40);
+    font-size: 12px;
+}
